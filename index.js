@@ -1,5 +1,6 @@
 //ao escrever no console a primeira letra deve ser maiuscula 
 //escolha um produto
+
 console.log("escolha uma versão porém escreva certo")
 console.log("")
 console.log("Rima vitae")
@@ -46,6 +47,7 @@ else {
   }
 
 //não coloque informações reais
+
 console.log(" ")
 
 var cartão = prompt("numero do cartão:")
