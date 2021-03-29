@@ -59,13 +59,7 @@ console.log(" ")
 var cartão = prompt("senha do cartão:")
 console.log(" ")
 
- const numeros = [19452, 13264, 14632];
-
-  let index = 0;
-
-  while (index < numeros.length){
-    console.log('suas keys %s; ', numeros[index]);
-    index++;}
+ 
 
 console.log(" ")
 console.log("Numero da compra")
@@ -76,7 +70,17 @@ var expz = prompt("confirme o numero da compra:");
 if (expz == 2645161){
   console.log("compra validada")
   console.log(" ")
-console.log("keys restantes das outras verssões:")
+
+  const numeros = [19452, 13264, 14632];
+
+  let index = 0;
+
+  while (index < numeros.length){
+    console.log('suas keys %s; ', numeros[index]);
+    index++;}
+
+  console.log(" ")
+console.log("keys restantes:")
 console.log(" ")
 console.log(3-expf)
 
