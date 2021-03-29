@@ -74,7 +74,7 @@ if (expz == 2645161){
   const numeros = [19452, 13264, 14632];
 
   let index = 0;
-
+ 
   while (index < numeros.length){
     console.log('suas keys %s; ', numeros[index]);
     index++;}
