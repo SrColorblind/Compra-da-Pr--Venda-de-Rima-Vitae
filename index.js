@@ -35,7 +35,8 @@ if (expf > 3) {
 }
 
 else{
-  var RM = prompt("deseja parcela?");
+  var RM = prompt("deseja parcela?")
+    console.log(" ");
 
 if (RM.toLowerCase() == 'Sim'){
   prompt("Então a forma de pagamento é cartão de credito certo?")
@@ -68,6 +69,7 @@ console.log(" ")
 var expz = prompt("confirme o numero da compra:");
 
 if (expz == 2645161){
+    console.log(" ")
   console.log("compra validada")
   console.log(" ")
 
