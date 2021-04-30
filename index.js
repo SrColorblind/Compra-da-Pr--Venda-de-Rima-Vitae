@@ -1,10 +1,15 @@
 //ao escrever no console a primeira letra deve ser maiuscula 
 //escolha um produto
 
+   var g = 2;
+var h = 5;
+while(g < 1){
+
 console.log("escolha uma versão porém escreva certo")
 console.log("")
 console.log("Rima vitae")
 console.log("")
+ console.log("")
 console.log("Rima vitae deluxe")
 console.log("")
 console.log("Rima vitae gold")
@@ -25,8 +30,7 @@ switch (expr) {
 };
 console.log(" ")
 
-for(var expf = prompt("quantas unidades?"); expr <= 3; expr++)
-{console.log(expr)}
+for(var expf = prompt("quantas unidades?"); expr <= 3; expr++){console.log(expr)}
 
 console.log(" ")
 
@@ -85,7 +89,7 @@ if (expz == 2645161){
 console.log("keys restantes:")
 console.log(" ")
 console.log(3-expf)
-
+ 
 do {
   console.log("obrigado por compra conosco!")
 } while(expz === 2645161)
@@ -101,5 +105,7 @@ else if (expz != 2645161){
 
 
 
+
+}
 
 }
